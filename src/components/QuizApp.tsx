@@ -88,7 +88,7 @@ export function QuizApp({ questions }: { questions: Question[] }) {
           onNext={goNext}
           onPrev={goPrev}
         />
-        <Sidebar answered={stats.answered} correct={stats.correct} total={questions.length} />
+        <Sidebar answered={stats.answered} correct={stats.correct} />
       </div>
     </main>
   )

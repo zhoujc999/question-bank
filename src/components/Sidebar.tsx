@@ -1,11 +1,10 @@
 export function Sidebar({
   answered,
   correct,
-  total,
 }: {
   answered: number
   correct: number
-  total: number
+  total?: number
 }) {
   const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0
 
