@@ -33,7 +33,7 @@ function main() {
   const sqlStatements = questions.map((q) => {
     const category = q.group || 'General'
     const safeQuestion = q.question.replace(/'/g, "''")
-    const safeChoices = JSON.stringify(q.choices)
+    const safeChoices = JSON.stringify(q.choices).replace(/'/g, "''")
     const safeExplanation = (q.explanation || '').replace(/'/g, "''")
     const answer = q.answer
 

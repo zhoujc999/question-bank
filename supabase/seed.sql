@@ -60,7 +60,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Instructor evaluation of a learner''s progress should be based on',
-  '["established standards for the subject matter, procedure, or maneuver.","a commercially available curriculum for the course of training.","the learner's level of achievement compared to other learners at that time."]'::jsonb,
+  '["established standards for the subject matter, procedure, or maneuver.","a commercially available curriculum for the course of training.","the learner''s level of achievement compared to other learners at that time."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 8-10, which reads:
 
@@ -73,7 +73,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Evaluation of demonstrated ability is',
-  '["adapted to the learner's current motivation and performance of the learner.","conducted uniformly for all learners based on the instructor's standard.","modified to apply to the learner's experience and stage of development."]'::jsonb,
+  '["adapted to the learner''s current motivation and performance of the learner.","conducted uniformly for all learners based on the instructor''s standard.","modified to apply to the learner''s experience and stage of development."]'::jsonb,
   2,
   '‘AA-H-8083-9B, page 8-10 which reads: nstrated Ability ation of demonstrated ability during flight or maintenance instruction is based upon lished standards of performance, suitably modified to apply to the learner''s experience tage of development as a pilot or mechanic. The evaluation considers the learner''s ry of the elements involved in the maneuver or procedure, rather than merely the Il performance. For example, qualification of leamer pilots for solo and solo cross- ry privileges depends upon demonstrations of performance.'
 );
@@ -102,7 +102,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'When would using authentic assessment be desirable?',
-  '["Evaluating the learner's ability to use higher order thinking skills in performing real-world tasks.","Assessing the learner's grasp of information, concepts, terms, processes, and rules.","Assessing factual knowledge that forms the foundation needed for the learner to advance."]'::jsonb,
+  '["Evaluating the learner''s ability to use higher order thinking skills in performing real-world tasks.","Assessing the learner''s grasp of information, concepts, terms, processes, and rules.","Assessing factual knowledge that forms the foundation needed for the learner to advance."]'::jsonb,
   0,
   'See two different references below: 
 
@@ -130,7 +130,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What must an instructor anticipate before a learner will accept an instructor''s assessment?',
-  '["The learner must first accept the instructor in order to accept the assessment.","The learner will not accept the assessment unless the instructor asserts dominance.","The learner must accept the assessment solely based on the instructor's position."]'::jsonb,
+  '["The learner must first accept the instructor in order to accept the assessment.","The learner will not accept the assessment unless the instructor asserts dominance.","The learner must accept the assessment solely based on the instructor''s position."]'::jsonb,
   0,
   'AA-H-8083-98, page 6-2, which reads: table der that leamers do not like negative feedback. What makes an honest assessment table to the learner? A certificate or credential alone rarely suffices. Learners need to sonfidence in the instructor''s qualifications, teaching ability, sincerity, competence, and ity. Usually, instructors have the opportunity to establish themselves with leamers the formal assessment arises. If not, however, the instructor''s manner, attitude, and rity with the subject at hand serves this purpose. Assessments presented fairly, with r ity, conviction, sincerity, and from a position of recognizable competence tend to work ee FAA-H-8083-9A, page 5-3, which reads: table dent must accept the instructor in order to accept his or her assessment willingly. nts must have confidence in the instructor''s qualifications, teaching ability, sincerity, stence, and authority. Usually, instructors have the opportunity to establish themselves ludents before the formal assessment arises. If not, however, the instructor''s manner, e, and familiarity with the subject at hand must serve this purpose. Assessments must sented fairly, with authority, conviction, sincerity, and from a position of recognizable stence. Instructors must never rely on their position to make an assessment more table to students.'
 );
@@ -139,7 +139,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What is expected from the learner if the instructor tells the learner that their performance is unsatisfactory without providing explanations?',
-  '["The learner's performance is improved.","The learner self-corrects errors.","The learner becomes frustrated."]'::jsonb,
+  '["The learner''s performance is improved.","The learner self-corrects errors.","The learner becomes frustrated."]'::jsonb,
   2,
   '! AA-H-8083-9B, page 8-4, which reads: ze constructively—although its important to give praise and credit when deserved, itis y important to identify mistakes and failures. It does not help to tel learners they have errors and not provide explanations. Ifa learner has made an eamest effort but is told \e work is unsatisfactory, with no other explanation, frustration occurs. Errors cannot be ted if they are not identified, and if they are not identified, they will probably be uated through faulty practice. On the other hand, ifthe leamer is briefed on the errors. told how to correct them, progress can be made. '''
 );
@@ -176,7 +176,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What is one characteristic of an authentic assessment?',
-  '["It presents an overview of learner's progress.","It requires the learner to exhibit in-depth knowledge.","It assesses learner's progress at rote level."]'::jsonb,
+  '["It presents an overview of learner''s progress.","It requires the learner to exhibit in-depth knowledge.","It assesses learner''s progress at rote level."]'::jsonb,
   1,
   'i ‘AA-H-8083-9B, page 6-1 which reads: ssment Terminology +hapter presents two broad categories of assessment. The first is traditional sment, which often involves the kind of written testing (e.g., multiple choice, matching) rading that is most familiar to instructors and leamers. To achieve a passing score on a onal assessment, the learner usually has a set amount of time to recognize or duce memorized terms, formulas, or data. There is a single answer that is correct. equently, the traditional assessment usually assesses the leamer''s progress at the rote nderstanding levels of learning. However, carefully crafted scenario questions can s higher levels of learning. econd category of assessment is authentic assessment. Authentic assessment requires amer to demonstrate not just rote and understanding, but also the application and ation levels of learning. Authentic assessment generally requires the leamer to perform yorid tasks and demonstrate a meaningful application of skills and competencies. In words, the authentic assessment requires the learner to exhibit in-depth knowledge by ating a solution instead of merely choosing a response.'
 );
@@ -185,7 +185,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Which is a characteristic of authentic assessment?',
-  '["It requires the learner to demonstrate not just rote and understanding, but also the application and correlation levels of learning.","It assesses the learner's progress at the rote and understanding levels of learning.","It rarely requires the learner to perform real-world tasks."]'::jsonb,
+  '["It requires the learner to demonstrate not just rote and understanding, but also the application and correlation levels of learning.","It assesses the learner''s progress at the rote and understanding levels of learning.","It rarely requires the learner to perform real-world tasks."]'::jsonb,
   0,
   'FAA-H-8083-9B, page 6-1 which reads: second category of assessment is authentic assessment. Authentic assessment requires 2arner to demonstrate not just rote and understanding, but also the application and lation levels of learning. Authentic assessment generally requires the learner to perform world tasks and demonstrate a meaningful application of skills and competencies. In ‘words, the authentic assessment requires the learner to exhibit in-depth knowledge by rating a solution instead of merely choosing a response. thentic assessment, there are specific performance criteria, or standards, that learners /in advance of the actual assessment. The terms "criteria/criterion" and "standard" are ‘used interchangeably. They refer to the characteristics that define acceptable mance on a task. Another term used in association with authentic assessment is ic." Arubric is a guide used to score performance assessments in a reliable, fair, and manner. It is generally composed of dimensions for judging learner performance, a for rating performances on each dimension, and standards of excellence for specified mance levels.'
 );
@@ -257,7 +257,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'During a flight training course, when is it appropriate to introduce the students to the acceptable standards for passing the practical test?',
-  '["To introduce a lesson task at the beginning of each flight lesson.","Not until 3 hours before the practical test preparation instruction required by regulation.","During phase/stage checks to assess a student's progression at strategic course transitions."]'::jsonb,
+  '["To introduce a lesson task at the beginning of each flight lesson.","Not until 3 hours before the practical test preparation instruction required by regulation.","During phase/stage checks to assess a student''s progression at strategic course transitions."]'::jsonb,
   1,
   'AA-H-8083-9A, page 8-3, which reads: instructors have the responsibility of producing the safest pilots possible. For that n, CFIs should encourage each student to learn as much as he or she is capable of and aising the bar. When introducing lesson tasks, fight instructors should not introduce imum acceptable standards for passing the checkride. The Practical Test Standard is not a teaching tool. itis a testing tool. The overall focus of fight training should be cation, learning, and understanding why the standards are there and how they were ne minimum standards to pass the checkride should not be introduced until he 3 hours paration for the checkride.'
 );
@@ -364,7 +364,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Evaluation of demonstrated ability during flight instruction must be based upon',
-  '["the motivation and background of the individual student.","the student's overall performance of a maneuver or procedure.","established standards of performance suitably modified to account for student experience level."]'::jsonb,
+  '["the motivation and background of the individual student.","the student''s overall performance of a maneuver or procedure.","established standards of performance suitably modified to account for student experience level."]'::jsonb,
   2,
   '4 \-H-8083-9B, page 8-10 which reads: id trated Ability on of demonstrated ability during flight or maintenance instruction is based upon 1ed standards of performance, suitably modified to apply to the learner''s \0e and stage of development as a pilot or mechanic. The evaluation considers the s mastery of the elements involved in the maneuver or procedure, rather than he overall performance. For example, qualification of learner pilots for solo and f ss-countty privileges depends upon demonstrations of performance.'
 );
@@ -373,7 +373,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Evaluation of demonstrated ability during flight instruction must be based upon',
-  '["established standards of performance suitably modified to the student's stage of development as a pilot.","the progress of the student considering the time and experience attained since beginning training.","the instructor's background and experience relating to a student pilot at this stage of training."]'::jsonb,
+  '["established standards of performance suitably modified to the student''s stage of development as a pilot.","the progress of the student considering the time and experience attained since beginning training.","the instructor''s background and experience relating to a student pilot at this stage of training."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 8-10,which reads:
 Demonstrated Ability
@@ -442,7 +442,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What is an advantage of selection-type test items over supply type test items?',
-  '["Selection-type items are particularly good for measuring a learner's ability to recognize relationships and to make associations between terms.","Selection-type items would be graded the same regardless of the student or the grader.","Selection-type items demand an ability to express ideas and are valuable in measuring the learner's understanding."]'::jsonb,
+  '["Selection-type items are particularly good for measuring a learner''s ability to recognize relationships and to make associations between terms.","Selection-type items would be graded the same regardless of the student or the grader.","Selection-type items demand an ability to express ideas and are valuable in measuring the learner''s understanding."]'::jsonb,
   1,
   'See FAA-H-8083-9B, page B-1, which reads:
 
@@ -457,7 +457,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What is meant when a test has the characteristic of reliability?',
-  '["The test results are consistent with repeated measurement.","The test results help distinguish differences between learners' achievements.","The test helps measure what needs to be measured and nothing else."]'::jsonb,
+  '["The test results are consistent with repeated measurement.","The test results help distinguish differences between learners'' achievements.","The test helps measure what needs to be measured and nothing else."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 6-4, which reads:
 
@@ -567,7 +567,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'What should an instructor''s assessment of a learner''s performance provide?',
-  '["An explanation of every aspect of the learner's performance in detail.","An opportunity for the learner to evaluate his or her own knowledge.","Direction and guidance to improve the learner's performance."]'::jsonb,
+  '["An explanation of every aspect of the learner''s performance in detail.","An opportunity for the learner to evaluate his or her own knowledge.","Direction and guidance to improve the learner''s performance."]'::jsonb,
   2,
   'x \-H-8083-9, Aviation Instructors Handbook, page 6-1. a SE OF A CRITIQUE e should provide the students with something sive upon which they can work or build. It yrovide direction and guidance to raise their { performance. Students must understand the ‘of the critique; otherwise, they will be unlikely 9t the criticism offered and litle improvement f It. e also can be used as a tool for reteaching. n not all critiques lend themselves to reteaching, uctor should be alert to the possibility and take ge of the opportunity when it arises. If, for exam- eral students falter when they reach the same 1 weight-and-balance problem, the instructor ognize the need for a more detailed explanation, demonstration of the step, or special is in the critiques of subsequent performance.'
 );
@@ -576,7 +576,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Which statement is true about an instructor''s critique of a student''s performance?',
-  '["Praise for praise's sake is of value.","It should be constructive and objective.","It should treat every aspect of the performance in detail."]'::jsonb,
+  '["Praise for praise''s sake is of value.","It should be constructive and objective.","It should treat every aspect of the performance in detail."]'::jsonb,
   1,
   'A-H-8083-9, Aviation Instructors Handbook, page 6-2: TIVE ective critique is focused on student performance. d be objective, and not reflect the personal s, likes, dislikes, and biases of the instructor. imple, if a student accomplishes a complicated anning problem, it would hardly be fair for the or to criticize the students personality traits they interfered with the performance itself. ors sometimes permit their judgment to be influenced ‘general impression of the student, favorable vorable. Sympathy or over-identification tudent, to such a degree that it influences objectivity, n as "halo error." A conflict of personalities o distort an opinion. If a critique is to be e, it must be honest; it must be based on the ance as it was, not as it could have been, or as ructor and student wished that it had been. FRUCTIVE 1¢ is pointless unless the student profits from e for praises sake is of no value, but praise be included to show how to capitalize on hat are done well. The praise can then be used re the student to improve in areas of lesser lishment. By the same token, it is not enough ify a fault or weakness. The instructor should sitive guidance for correcting the fault and nening the weakness. Negative criticism that at point toward improvement or a higher level mance should be omitted from a critique rer.'
 );
@@ -585,7 +585,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'When an instructor critiques a student, the critique should',
-  '["normally be conducted orally and in private.","be limited to the specific performance being evaluated.","be conducted immediately after the student's performance."]'::jsonb,
+  '["normally be conducted orally and in private.","be limited to the specific performance being evaluated.","be conducted immediately after the student''s performance."]'::jsonb,
   2,
   'A/\-H-8083-9B, page 6-10, which reads: Jue may be oral, written, or both. It should come immediately after a leamer''s mance, while the details of the performance are easy to recall. An instructor may e any activity a leamer performs or practices to improve skill, proficiency, and ig. A critique may be conducted privately or before the entire class. A critique nted before the entire class can be beneficial to every learner in the classroom, as s to the leamer who performed the exercise or assignment. In this case, however, the stor should avoid embarrassing the leamer in front of the class.'
 );
@@ -594,7 +594,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Which statement is true about instructors'' critiques?',
-  '["Instructors should rely on their personality to make a critique more acceptable.","A comprehensive critique should emphasize positive aspects of student performance.","Before students willingly accept their instructor's critique, they must first accept the instructor."]'::jsonb,
+  '["Instructors should rely on their personality to make a critique more acceptable.","A comprehensive critique should emphasize positive aspects of student performance.","Before students willingly accept their instructor''s critique, they must first accept the instructor."]'::jsonb,
   2,
   'A-H-8083-9A, page 5-3, which reads: q ble dent must accept the instructor in order to accept his or her assessment willingly. must have confidence in the instructor''s qualifications, teaching ability, sincerity, ence, and authority. Usually, instructors have the opportunity to establish \ves with students before the formal assessment arises. If not, however, the or''s manner, attitude, and familiarity with the subject at hand must serve this .. Assessments must be presented fairly, with authority, conviction, sincerity, and Josition of recognizable competence. Instructors must never rely on their position to n assessment more acceptable to students.'
 );
@@ -603,7 +603,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Evaluation',
   'Evaluation of student performance and accomplishment during a lesson should be based on',
-  '["objectives and goals established in the lesson plan.","performance of each student compared to an objective standard.","each student's ability to make an objective evaluation of their own progress."]'::jsonb,
+  '["objectives and goals established in the lesson plan.","performance of each student compared to an objective standard.","each student''s ability to make an objective evaluation of their own progress."]'::jsonb,
   0,
   'A-H-8083-9, Aviation Instructors Handbook, page 4-4. uation of student performance and accomplishment lesson should be based on the es and goals that were established in the >rs lesson plan. Review and evaluation allow instructor and the students to have a valid picture 2 the student stands in respect to the established d. Review and evaluation in every lesson j 3 opportunities for both positive feedback and an of faults'
 );
@@ -630,7 +630,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'General',
   'What should an instructor do when the student shows symptoms of chronic fatigue?',
-  '["Suspend training until the student seeks medical attention and returns with a physician note.","Recommend the student get some rest before the next day's lesson.","Suggest the student seek a solution to mitigate the physiological/psychological underlying problem."]'::jsonb,
+  '["Suspend training until the student seeks medical attention and returns with a physician note.","Recommend the student get some rest before the next day''s lesson.","Suggest the student seek a solution to mitigate the physiological/psychological underlying problem."]'::jsonb,
   2,
   'Chronic fatigue occurs when there is not enough time for a full recovery from repeated episodes of acute fatigue. Its underlying cause is generally not rest-related and may have deeper points of origin; therefore, rest alone may not resolve it. Chronic fatigue is a combination of physiological problems and psychological issues. Recovery requires a prolonged and deliberate solution that mitigates the underlying problems.'
 );
@@ -648,7 +648,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'General',
   'What are the characteristics of chronic fatigue?',
-  '["The learner pilot exhibits irritability and neglects secondary tasks.","The learner pilot's judgment and performance become impaired.","The learner pilot displays inattention and/or distractibility."]'::jsonb,
+  '["The learner pilot exhibits irritability and neglects secondary tasks.","The learner pilot''s judgment and performance become impaired.","The learner pilot displays inattention and/or distractibility."]'::jsonb,
   1,
   'Chronic fatigue occurs when there is not enough time for a full recovery from repeated episodes of acute fatigue. Without resolution, human performance continues to fall off and judgment becomes impaired, so unwarranted risks may be taken. Personal performance can be impaired and adversely affect pilot judgment and decision-making.'
 );
@@ -733,7 +733,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'General',
   'Fatigue is such a treacherous hazard to flight safety because',
-  '["it may affect the acute sense of vision, hearing, and feel.","it may not be apparent to a pilot before serious errors are made.","the pilot may feel discomfort such as airsickness when they haven't previously before."]'::jsonb,
+  '["it may affect the acute sense of vision, hearing, and feel.","it may not be apparent to a pilot before serious errors are made.","the pilot may feel discomfort such as airsickness when they haven''t previously before."]'::jsonb,
   1,
   'Fatigue is one of the most treacherous hazards to flight safety because it may not be apparent to a pilot until serious errors are made. Fatigue can be either acute (short-term) or chronic (long-term).'
 );
@@ -899,7 +899,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'Why should instructors have a good understanding of learner''s affective domain?',
-  '["This will develop and maintain critical thinking skills for evaluation.","It will provide a guide to learner's feelings, values, motivations, and attitudes.","It will provide a foundation for physical coordination and use of motor skills."]'::jsonb,
+  '["This will develop and maintain critical thinking skills for evaluation.","It will provide a guide to learner''s feelings, values, motivations, and attitudes.","It will provide a foundation for physical coordination and use of motor skills."]'::jsonb,
   1,
   'Affective Domain The affective domain addresses a learner''s emotions toward the educational experience. It includes feelings, values, enthusiasms, motivations, and attitudes. [Figure 3-11] For the aviation instructor, this may mean how the individual approaches learning. Is he or she motivated to learn? Does he or she exhibit confidence in learning? Does the learner display a positive attitude towards safety and risk mitigation? The affective domain provides a framework for teaching in five levels: awareness, response, value, organizing, and integration. In this taxonomy, the learner begins on the awareness level and is open to learning, willing to listen to the instructor. As the learner traverses the taxonomy, he or she responds by participating actively in the training, decides the value of the training, organizes the training into his or her personal belief system, and finally internalizes it. The affective domain is more difficult to measure, but motivation and enthusiasm are important components of any learning. Therefore, the aviation instructor should be acquainted with this facet of learning. Motivation is discussed in depth later in the chapter.'
 );
@@ -908,7 +908,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'To ensure effective communication, an aviation instructor should consider that',
-  '["familiarities and motor skill abilities of learners may vary.","learner's level of education sets the pace of instruction.","learner will have adequate familiarity with the subject matter."]'::jsonb,
+  '["familiarities and motor skill abilities of learners may vary.","learner''s level of education sets the pace of instruction.","learner will have adequate familiarity with the subject matter."]'::jsonb,
   0,
   'First, an instructor needs to determine the abilities of the learner in order to properly communicate. One factor that can have an effect on learner ability is his or her background. For example, consider how familiar the learner may be with aviation. The familiarity may range from having grown up around aviation to absolutely no familiarity at all. Some learners may have highly developed motor skills, and others have not had opportunities to develop these skills. These factors should be taken into consideration when presenting information to a learner.'
 );
@@ -917,7 +917,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'Which classification system comprises six levels of intellectual behavior and progresses from simplest to most complex?',
-  '["Bruner's concept of spiral curriculum.","Bloom's taxonomy of educational objectives.","Dewey's theory of reflective thought."]'::jsonb,
+  '["Bruner''s concept of spiral curriculum.","Bloom''s taxonomy of educational objectives.","Dewey''s theory of reflective thought."]'::jsonb,
   1,
   'See FAA-H-8083-9B, page 3-5, which reads:
 
@@ -955,7 +955,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'What will occur if the instructor uses a variety of channels during the communication process?',
-  '["The learner will not understand what the instructor is teaching.","The learning atmosphere will be friendly and informative.","The instructor will be more successful in gaining and retaining the learner's attention."]'::jsonb,
+  '["The learner will not understand what the instructor is teaching.","The learning atmosphere will be friendly and informative.","The instructor will be more successful in gaining and retaining the learner''s attention."]'::jsonb,
   2,
   'In order to understand the process of communication, three characteristics of receivers need to be understood: abilities, attitudes, and experiences. First, an instructor needs to determine the abilities of the learner in order to properly communicate. One factor that can have an effect on learner ability is his or her background. For example, consider how familiar the learner may be with aviation. The familiarity may range from having grown up around aviation to absolutely no familiarity at all. Some learners may have highly developed motor skills, and others have not had opportunities to develop these skills. These factors should be taken into consideration when presenting information to a learner. The instructor should also understand that the viewpoint and background of people may vary because of cultural differences. The instructor should be aware of possible differences, but not overreact or make assumptions because of these differences. For example, just because a learner is a college graduate does not guarantee rapid advancement in aviation training. A learner''s education certainly affects the instructor''s style of presentation, but that style should be based on the evaluation of the learner''s knowledge of the aviation subject being taught. Second, the attitudes learners exhibit may indicate resistance, willingness, or passive neutrality. To gain and hold learner attention, attitudes should be molded into forms that promote reception of information. A varied communicative approach works best in reaching most learners since they have different attitudes. Third, instructors in aviation enjoy a unique advantage over other teachers, in that an aviation learner is usually an adult willing to expend time and money to further knowledge. The typical aviation learner exhibits a much more developed sense of motivation and selfconcept than a typical school learner. Additionally, he or she usually comes into the learning environment with a significant amount of prior knowledge, many life experiences, and a number of decision-making skills. The learner''s knowledge, abilities, and attitudes affect the instructor''s communication strategy.'
 );
@@ -1114,7 +1114,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'Probably the greatest single barrier to effective communication in the teaching process is',
-  '["an instructor's over use of abstractions and interference.","student lack of understanding of the symbolism or terminology used by the instructor.","lack of a common experience level between instructor and student."]'::jsonb,
+  '["an instructor''s over use of abstractions and interference.","student lack of understanding of the symbolism or terminology used by the instructor.","lack of a common experience level between instructor and student."]'::jsonb,
   2,
   'Lack of Common Experience Lack of common experience between the communicator (instructor) and the receiver (learner) is probably the greatest single barrier to effective communication. Communication can be effective only to the extent that the experiences (physical, mental, and emotional) of the participants are similar.'
 );
@@ -1159,7 +1159,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'The effectiveness of communication between instructor and student is measured by the',
-  '["quality of the information that is passed on.","similarity between the ideas transmitted and the ideas received.","the receiver's ability to assimilate the information being transmitted."]'::jsonb,
+  '["quality of the information that is passed on.","similarity between the ideas transmitted and the ideas received.","the receiver''s ability to assimilate the information being transmitted."]'::jsonb,
   1,
   'Communication takes place when one person transmits ideas or feelings to another person or group of people. The effectiveness of the communication is measured by the similarity between the idea transmitted and the idea received.'
 );
@@ -1285,7 +1285,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Perception-Memory',
   'In the learning process, fear or the element of threat will',
-  '["narrow the student's perceptual field.","decrease the rate of associative reactions.","broaden the student's perceptual field."]'::jsonb,
+  '["narrow the student''s perceptual field.","decrease the rate of associative reactions.","broaden the student''s perceptual field."]'::jsonb,
   0,
   'The element of threat does not promote effective learning. In fact, fear adversely affects perception by narrowing the perceptual field. Confronted with threat, students tend to limit their attention to the threatening object or condition. The field of vision is reduced, for example, when an individual is frightened and all the perceptual faculties are focused on the thing that has generated fear.'
 );
@@ -1426,7 +1426,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Definitions-Concepts',
   'What is meant when learning is described as multifaceted?',
-  '["The learning process may include verbal, conceptual, perceptual, emotional, and problem-solving elements all taking place at the same time.","The learning process is an active process and learners tend to soak up knowledge like a sponge absorbs water if exposed to many ideas simultaneously.","Multifaceted learning requires that each element of learning must be included in the instructor's lesson plan for incidental learning to take place."]'::jsonb,
+  '["The learning process may include verbal, conceptual, perceptual, emotional, and problem-solving elements all taking place at the same time.","The learning process is an active process and learners tend to soak up knowledge like a sponge absorbs water if exposed to many ideas simultaneously.","Multifaceted learning requires that each element of learning must be included in the instructor''s lesson plan for incidental learning to take place."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 3-19 which reads: Learning Is Multifaceted If instructors see their objective as being only to train their learners’ memory and muscles, they are underestimating the potential of the teaching situation. Individuals learn much more than expected if they fully exercise their minds and feelings. The fact that these items were not included in the instructor''s plan does not prevent them from influencing the learning situation. Psychologists sometimes classify learning by types, such as verbal, conceptual, perceptual, motor, problem-solving, and emotional. Other classifications refer to intellectual skills, cognitive strategies, and attitudinal changes, along with descriptive terms like surface or deep learning. However useful these divisions may be, they are somewhat artificial. For example, a class learning to apply the scientific method of problem-solving may learn the method by trying to solve real problems. But in doing so, the class also engages in verbal learning and sensory N perception at the same time. Each learner approaches the task with preconceived ideas and H feelings, and for many learners, these ideas change as a result of experience. Therefore, the 7 learning process may include verbal elements, conceptual elements, perceptual elements, , emotional elements, and problem-solving elements all taking place at once. This aspect of ) learning will become more evident later in this handbook when lesson planning is discussed. Learning is multifaceted in still another way. While learning the subject at hand, individuals y may be learning other things as well. They may be developing attitudes about aviation - good _ or bad - depending on what they experience. Under a skillful instructor, they may learn self- * reliance. The list is seemingly endless. This type of learning is sometimes referred to as 5 incidental, but it may have a great impact on the total development of the learner. be]'
 );
@@ -1484,7 +1484,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Definitions-Concepts',
   'Learners seek to satisfy their social need of belonging only after which other human needs are met first?',
-  '["After the learner's potential has been reached.","After learners satisfy their need to know what is going on around them.","After learners are physically comfortable and do not feel threatened."]'::jsonb,
+  '["After the learner''s potential has been reached.","After learners satisfy their need to know what is going on around them.","After learners are physically comfortable and do not feel threatened."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 2-7 which reads: Belonging When individuals are physically comfortable and do not feel threatened, they seek to satisfy their social needs of belonging. Maslow states that people seek to overcome feelings of loneliness and alienation. This involves both giving and receiving love, affection, and the sense of belonging. For example, aviation learners are usually out of their normal surroundings during training, and their need for association and belonging is more pronounced. Instructors should make every effort to help new learners feel at ease and to reinforce their decision to pursue a career or hobby in aviation.'
 );
@@ -1561,7 +1561,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'Definitions-Concepts',
   'According to Maslow, helping learners pursue what they were "born to do" can be rewarding, but it can also be',
-  '["time consuming or inefficient.","the greatest challenge to an instructor.","challenging to maintain the learner's motivation level."]'::jsonb,
+  '["time consuming or inefficient.","the greatest challenge to an instructor.","challenging to maintain the learner''s motivation level."]'::jsonb,
   1,
   'See FAA-H-8083-9B, page 2-7, which reads:
 
@@ -2379,7 +2379,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'To form proper habits and correct techniques during training, an instructor should',
-  '["insist on correct techniques and procedures from the outset of training.","correct improper technique only after basic concepts have been mastered.","continually raise the minimum standards throughout the student's training."]'::jsonb,
+  '["insist on correct techniques and procedures from the outset of training.","correct improper technique only after basic concepts have been mastered.","continually raise the minimum standards throughout the student''s training."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 3-40, which reads:
 
@@ -2407,7 +2407,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'An instructor can counteract anxiety in a student by',
-  '["reinforcing the student's enjoyment of flying and by teaching the student to cope with their fears.","temporarily discontinuing flight instruction in tasks that cause anxiety.","emphasizing the importance of overall flight safety in learning maneuvers that may cause anxiety."]'::jsonb,
+  '["reinforcing the student''s enjoyment of flying and by teaching the student to cope with their fears.","temporarily discontinuing flight instruction in tasks that cause anxiety.","emphasizing the importance of overall flight safety in learning maneuvers that may cause anxiety."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 2-12, which reads:
 
@@ -2495,7 +2495,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'To enhance a student''s acceptance of further instruction, the instructor should',
-  '["keep the student informed of the progress made.","continually prod the student to maintain motivational levels.","establish performance standards a little above the student's actual ability."]'::jsonb,
+  '["keep the student informed of the progress made.","continually prod the student to maintain motivational levels.","establish performance standards a little above the student''s actual ability."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 9-12 which reads:
 
@@ -2895,7 +2895,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'During oral quizzing in a given lesson, effective questions should',
-  '["be brief and concise.","provide answers that can be expressed in a variety of ways.","divert the student's thoughts to subjects covered in previous lessons."]'::jsonb,
+  '["be brief and concise.","provide answers that can be expressed in a variety of ways.","divert the student''s thoughts to subjects covered in previous lessons."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 6-11, which reads:
 
@@ -2913,7 +2913,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'To be effective, oral questions during the content of a lesson should',
-  '["be adapted to the learner's stage of training.","ask a combination of where, how, and why.","direct student thoughts to previous lessons learned."]'::jsonb,
+  '["be adapted to the learner''s stage of training.","ask a combination of where, how, and why.","direct student thoughts to previous lessons learned."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 4-10 which reads:
 
@@ -2924,7 +2924,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Which is a valid reason for the use of proper oral quizzing during a lesson?',
-  '["Reveals the effectiveness of the instructor's training methods.","Identifies points that have been sufficiently addressed and need less emphasis.","Helps the instructor determine the motivation level of the students."]'::jsonb,
+  '["Reveals the effectiveness of the instructor''s training methods.","Identifies points that have been sufficiently addressed and need less emphasis.","Helps the instructor determine the motivation level of the students."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 6-11 which reads:
 
@@ -2971,7 +2971,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'One desirable result of proper oral quizzing by the instructor is to',
-  '["reveal the effectiveness of the instructor's training procedures.","fulfill the requirements set forth in the overall objectives of the course.","reveal the essential information from which the student can determine progress."]'::jsonb,
+  '["reveal the effectiveness of the instructor''s training procedures.","fulfill the requirements set forth in the overall objectives of the course.","reveal the essential information from which the student can determine progress."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 6-11 which reads:
 
@@ -3001,7 +3001,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Which is a true statement concerning the use of instructional aids?',
-  '["Instructional aids ensure getting and holding the student's attention.","Instructional aids should be designed to cover the key points in a lesson.","Instructional aids should not be used simply to cover a subject in less time."]'::jsonb,
+  '["Instructional aids ensure getting and holding the student''s attention.","Instructional aids should be designed to cover the key points in a lesson.","Instructional aids should not be used simply to cover a subject in less time."]'::jsonb,
   1,
   'See FAA-H-8083-9, Aviation Instructors Handbook, page 7-1. Ideally, instructional aids should be designed to cover the key points and concepts. In addition, the coverage should be straightforward and factual so it is easy for students to remember and recall. Generally, instructional aids that are relatively simple are best suited for this purpose.'
 );
@@ -3098,7 +3098,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'What should an instructor do with a student who assumes that correction of errors is unimportant?',
-  '["Divide complex flight maneuvers into elements.","Try to reduce the student's overconfidence to reduce the chance of an accident.","Raise the standard of performance for each lesson, demanding greater effort."]'::jsonb,
+  '["Divide complex flight maneuvers into elements.","Try to reduce the student''s overconfidence to reduce the chance of an accident.","Raise the standard of performance for each lesson, demanding greater effort."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 8-2, which reads: Conversely, fast learners can also create challenges for the instructor. Because these learners make few mistakes, they may assume that the correction of errors is unimportant. Overconfidence may result, which leads to faulty performance. For these learners, the instructor constantly raises the standard of performance for each lesson, demanding greater effort. Individuals learn only if aware of their errors, and better retention of skills exists for learners who focus their attention on an analysis of their performance. On the other hand, deficiencies should not be invented solely for the learners'' benefit. Unfair criticism immediately destroys a learner''s confidence in the instructor.'
 );
@@ -3171,7 +3171,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Student confidence tends to be destroyed if instructors',
-  '["bluff whenever in doubt about some point.","continually identify student errors and failures.","direct and control the student's actions and behavior."]'::jsonb,
+  '["bluff whenever in doubt about some point.","continually identify student errors and failures.","direct and control the student''s actions and behavior."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 8-4, which reads:
 
@@ -3213,7 +3213,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Integrated flight instruction has many benefits but, the main objective is to',
-  '["develop the student's ability to fly the aircraft during inadvertent IMC.","increase student reliance on flight instruments in visual flight conditions.","help the student develop habit patterns for observance of and reference to flight instruments."]'::jsonb,
+  '["develop the student''s ability to fly the aircraft during inadvertent IMC.","increase student reliance on flight instruments in visual flight conditions.","help the student develop habit patterns for observance of and reference to flight instruments."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 9-10, which reads:
 
@@ -3226,7 +3226,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'What is the primary purpose of integrated flight instruction?',
-  '["To form firm habit patterns for observing and referencing flight instruments.","To highlight the difference in the pilot's operation of the flight controls during VMC and IMC.","To develop the habit of occasionally monitoring their own and the aircraft's performance in the later stages of training."]'::jsonb,
+  '["To form firm habit patterns for observing and referencing flight instruments.","To highlight the difference in the pilot''s operation of the flight controls during VMC and IMC.","To develop the habit of occasionally monitoring their own and the aircraft''s performance in the later stages of training."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 9-10, which reads:
 
@@ -3265,7 +3265,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Which is one of the ways in which anxiety will affect a student?',
-  '["Anxiety may limit the student's ability to learn from perceptions.","Anxiety will speed up the learning process for the student if properly controlled and directed by the instructor.","Anxiety causes dispersal of the student's attention over such a wide range of matters as to interfere with normal reactions."]'::jsonb,
+  '["Anxiety may limit the student''s ability to learn from perceptions.","Anxiety will speed up the learning process for the student if properly controlled and directed by the instructor.","Anxiety causes dispersal of the student''s attention over such a wide range of matters as to interfere with normal reactions."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 2-12, which reads:
 
@@ -3302,7 +3302,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Which statement is true concerning extraneous blocks of instruction during a course of training?',
-  '["They are usually necessary parts of the total objective.","They detract from the completion of the final objective.","They assist in the attainment of the lesson's objective."]'::jsonb,
+  '["They are usually necessary parts of the total objective.","They detract from the completion of the final objective.","They assist in the attainment of the lesson''s objective."]'::jsonb,
   1,
   'See FAA-H-8083-9B, page 7-2, which reads:
 
@@ -3334,7 +3334,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Why is it essential to develop and assemble blocks of learning in their proper relationship?',
-  '["To allow both the instructor and the learner to easily correct faulty habit patterns and identify alternative effective learning techniques in order to meet the objectives.","To allow the learner to be challenged by progressively increasing the units of learning until the learner's ability is reached and no further learning can occur.","To allow the learner to master the segments individually and progressively combine these with other related segments until the overall training objective is met."]'::jsonb,
+  '["To allow both the instructor and the learner to easily correct faulty habit patterns and identify alternative effective learning techniques in order to meet the objectives.","To allow the learner to be challenged by progressively increasing the units of learning until the learner''s ability is reached and no further learning can occur.","To allow the learner to master the segments individually and progressively combine these with other related segments until the overall training objective is met."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 7-2, which reads: While determining the overall training objectives is a necessary first step in the planning process, early identification of the foundation blocks of learning is also essential. Training for any such complicated and involved task as piloting or maintaining an aircraft requires the development and assembly of many segments or blocks of learning in their proper relationships. In this way, a learner can master the segments or blocks individually and can progressively combine these with other related segments until their sum meets the overall training objectives.'
 );
@@ -3415,7 +3415,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   '(Refer to figure 1.) Section F is titled:',
-  '["Student's Actions.","Application.","Understanding."]'::jsonb,
+  '["Student''s Actions.","Application.","Understanding."]'::jsonb,
   0,
   'See FAA-H-8083-9, Aviation Instructors Handbook.
 
@@ -3448,7 +3448,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   '(Refer to figure 1.) Section E is titled:',
-  '["Instructor's Actions.","Discussion.","Content."]'::jsonb,
+  '["Instructor''s Actions.","Discussion.","Content."]'::jsonb,
   0,
   'See FAA-H-8083-9, Aviation Instructors Handbook.
 
@@ -3776,7 +3776,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Instructional aids used in the teaching/learning process can be used',
-  '["as an aid in portraying the total concept or 'big picture' rather than individual key points.","to replace instructor and student language proficiencies.","to clarify the relationship between material objects and concepts."]'::jsonb,
+  '["as an aid in portraying the total concept or ''big picture'' rather than individual key points.","to replace instructor and student language proficiencies.","to clarify the relationship between material objects and concepts."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 5-24, which reads: Another use for instructional aids is to clarify the relationships between material objects and concepts. When relationships are presented visually, they often are much easier to understand. For example, the subsystems within a physical unit are relatively easy to relate to each other through the use of schematics or diagrams. Symbols, graphs, and diagrams can also show relationships of location, size, time, frequency, and value. By symbolizing the factors involved, it is even possible to visualize abstract relationships.'
 );
@@ -4072,7 +4072,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Define the ''telling-and-doing'' technique.',
-  '["A variation of the 'demonstration/performance' method.","A tool to teach the student complicated maneuvers.","A very complicated method to instruct any maneuver."]'::jsonb,
+  '["A variation of the ''demonstration/performance'' method.","A tool to teach the student complicated maneuvers.","A very complicated method to instruct any maneuver."]'::jsonb,
   0,
   'See FAA-H-8083-9A, page 8-7, which reads:
 
@@ -4628,7 +4628,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'Why is it important for the instructor to be able to detect fatigue in the learner?',
-  '["Fatigue can cause discomfort and air sickness.","Fatigue will affect flight safety, but the learner's performance does not degrade.","The learner will exhibit substandard performance and should be given a break."]'::jsonb,
+  '["Fatigue can cause discomfort and air sickness.","Fatigue will affect flight safety, but the learner''s performance does not degrade.","The learner will exhibit substandard performance and should be given a break."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 2-13 which reads:
 
@@ -4834,7 +4834,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'What is the critical outcome of instructor oral quizzing?',
-  '["It fulfills the requirements set forth in the overall objectives of the course.","It verifies the learner's comprehension of what has been taught.","It limits negative information to promote learner self-esteem."]'::jsonb,
+  '["It fulfills the requirements set forth in the overall objectives of the course.","It verifies the learner''s comprehension of what has been taught.","It limits negative information to promote learner self-esteem."]'::jsonb,
   1,
   'See FAA-H-8083-9B, page 6-11 which reads:
 
@@ -4873,7 +4873,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'What must an instructor understand about learner anxiety so that effective learning can occur?',
-  '["An instructor must provide an atmosphere where the learner can be comfortable, confident in the instructor and the aircraft, and be at ease.","Anxiety causes dizziness, weakness, nausea, sweaty hands and feet, and extreme thirst.","Anxiety will improve the learner's perceptive ability if properly controlled and directed by the instructor."]'::jsonb,
+  '["An instructor must provide an atmosphere where the learner can be comfortable, confident in the instructor and the aircraft, and be at ease.","Anxiety causes dizziness, weakness, nausea, sweaty hands and feet, and extreme thirst.","Anxiety will improve the learner''s perceptive ability if properly controlled and directed by the instructor."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 2-9, which reads:
 
@@ -5023,7 +5023,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'A lesson plan is',
-  '["not part of a pilot's training record.","an individually organized plan for use by only one instructor.","an organized outline for a single instructional period."]'::jsonb,
+  '["not part of a pilot''s training record.","an individually organized plan for use by only one instructor.","an organized outline for a single instructional period."]'::jsonb,
   2,
   'See FAA-H-8083-9B, page 7-7 which reads:
 
@@ -5055,7 +5055,7 @@ INSERT INTO questions (category, question, choices, answer, explanation)
 VALUES (
   'FOI Basics',
   'To be effective at oral quizzing during the conduct of a lesson, questions should',
-  '["be tailored to the stage of training.","divert the student's thoughts to subjects covered in another lesson.","include a combination of where, how and why."]'::jsonb,
+  '["be tailored to the stage of training.","divert the student''s thoughts to subjects covered in another lesson.","include a combination of where, how and why."]'::jsonb,
   0,
   'See FAA-H-8083-9B, page 6-11 which reads:
 

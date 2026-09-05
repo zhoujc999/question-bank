@@ -54,6 +54,11 @@ CREATE POLICY "Users can view own purchases"
   ON stripe_purchases FOR SELECT
   USING (auth.uid() = user_id);
 
+-- Users create their own pending purchase record before Stripe checkout
+CREATE POLICY "Users can insert own purchases"
+  ON stripe_purchases FOR INSERT
+  WITH CHECK (auth.uid() = user_id);
+
 -- RLS: Questions (any authenticated user with active purchase can read)
 ALTER TABLE questions ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users with purchase can read questions"
